@@ -1,0 +1,72 @@
+
+.denem{
+    height: 550px;
+}
+.dsile{
+    height: 750px;
+    
+}
+.blog{
+    height: 250px;
+}
+.metin{
+    padding-bottom: 25px;
+}
+.footerlist{
+    text-align: center;
+    margin: auto;
+}
+.footerlist ul{
+    list-style-type: none;
+}
+.footerlist li{
+    display: inline-block;
+    
+}
+.footerlist a{
+    font-size: 40px;
+    margin-left: 15px;
+    
+}
+.altp li{
+    display: inline-block;
+}
+.altp ul {
+    display: inline-block;
+}
+.altp p{
+    display: inline-block;
+    
+}
+.altp{
+    margin-top: 25px;
+    text-align: center;
+    
+}
+#backtotop{
+    
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+#backtotop i{
+    font-size: 45px;
+    color:  black;
+    transition: color .6s;
+}
+#backtotop i:hover{
+    color:  #4d4d4d;
+}
+@media (max-width: 576px){
+    .visi{
+        visibility: hidden;
+    }
+    #backtotop i{
+        display: none;
+    }
+    .aa{
+        margin-left: 12px;
+    }
+    
+}
+
